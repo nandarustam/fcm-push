@@ -35,18 +35,18 @@ Via [npm][1]:
         }
     });
 
-See [FCN documentation][2] for details.
+See [FCM documentation][2] for details.
 
 ## Credits
 
 Written and maintained by [Rasmunandar Rustam][3].
-Thanks to Changshin Lee for his great work on [node-gcm][4], cloned and modified from there.
+Thanks to Changshin Lee & for his great work on [node-gcm][4], cloned and modified from there.
 
 ## License
 
 The MIT License
 
-Copyright (c) 2012 Changshin Lee (cslee@h2soft.kr)
+Copyright (c) 2016 Rasmunandar Rustam (nandar.rustam@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -57,7 +57,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [1]: http://github.com/isaacs/npm
 [2]: https://firebase.google.com/docs/cloud-messaging/server
 [3]: mailto:nandar.rustam@gmail.com
-[4]: https://www.npmjs.com/package/gcm
+[4]: https://github.com/h2soft/node-gcm
 
 ## Changelog
 
