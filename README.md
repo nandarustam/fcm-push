@@ -40,7 +40,7 @@ See [FCM documentation][2] for details.
 ## Credits
 
 Written and maintained by [Rasmunandar Rustam][3].
-Thanks to Changshin Lee & for his great work on [node-gcm][4], cloned and modified from there.
+Thanks to Changshin Lee for his great work on [node-gcm][4], cloned and modified from there.
 
 ## License
 
@@ -60,6 +60,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [4]: https://github.com/h2soft/node-gcm
 
 ## Changelog
+
+1.0.3:
+
+  - README updated
 
 1.0.1:
 
