@@ -61,6 +61,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Changelog
 
+1.0.5:
+
+  - Major yet silly bug fix in index.js
+
 1.0.3:
 
   - README updated
