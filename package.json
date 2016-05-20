@@ -1,7 +1,7 @@
 {
   "name": "fcm-push",
   "version": "1.0.0",
-  "description": "A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android & iOS",
+  "description": "A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android and iOS",
   "main": "index.js",
   "repository": {
     "type": "git",
