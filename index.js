@@ -1,1 +1,1 @@
-module.exports = require('lib/fcm.js');
+module.exports = require('./lib/fcm');
