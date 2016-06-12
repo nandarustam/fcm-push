@@ -55,11 +55,15 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [1]: http://github.com/isaacs/npm
-[2]: https://firebase.google.com/docs/cloud-messaging/server
+[2]: https://firebase.google.com/docs/cloud-messaging
 [3]: mailto:nandar.rustam@gmail.com
 [4]: https://github.com/h2soft/node-gcm
 
 ## Changelog
+
+1.0.6: 
+
+  - Fixed the length calculation for strings with special UTF-8 characters (ie. german umlauts) which caused FCM errors (by @denisu)
 
 1.0.5:
 
