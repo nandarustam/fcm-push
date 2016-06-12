@@ -61,6 +61,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Changelog
 
+1.0.7
+  
+  - Fixed calling the inherits function before declaring .prototype.send function instead of after (thanks to @dnunes)
+
 1.0.6: 
 
   - Fixed the length calculation for strings with special UTF-8 characters (ie. german umlauts) which caused FCM errors (by @denisu)
