@@ -16,7 +16,7 @@ Via [npm][1]:
     var fcm = new FCM(serverKey);
 
     var message = {
-        to: 'registration_token', // required
+        to: 'registration_token_or_topics', // required fill with device token or topics
         collapse_key: 'your_collapse_key', 
         data: {
             your_custom_data_key: 'your_custom_data_value'
