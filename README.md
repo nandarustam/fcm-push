@@ -27,6 +27,7 @@ Via [npm][1]:
         }
     };
     
+    //callback style
     fcm.send(message, function(err, response){
         if (err) {
             console.log("Something has gone wrong!");
@@ -34,6 +35,16 @@ Via [npm][1]:
             console.log("Successfully sent with response: ", response);
         }
     });
+
+    //promise style
+    fcm.send(message)
+        .then(function(response){
+            console.log("Successfully sent with response: ", response);
+        })
+        .catch(function(err){
+            console.log("Something has gone wrong!");
+            console.error(err);
+        })
 
 See [FCM documentation][2] for details.
 
