@@ -1,4 +1,4 @@
-fcm-push
+fcm-push-notif
 ========
 A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android and iOS
 
@@ -6,11 +6,11 @@ A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android and iOS
 
 Via [npm][1]:
 
-    $ npm install fcm-push
+    $ npm install fcm-push-notif
 
 ## Usage
 
-    var FCM = require('fcm-push');
+    var FCM = require('fcm-push-notif');
 
     var serverKey = '';
     var fcm = new FCM(serverKey);
