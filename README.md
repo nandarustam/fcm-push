@@ -12,7 +12,7 @@ Via [npm][1]:
 
     var FCM = require('fcm-push-notif');
 
-    var serverKey = '';
+    var serverKey = 'your_own_server_key';
     var fcm = new FCM(serverKey);
 
     var message = {
@@ -57,7 +57,7 @@ Based on the great work on [fcm-push][7] by [Rasmunandar Rustam][4] cloned and m
 
 The MIT License
 
-Copyright (c) 2016 eFishery (career@efishery.com)
+Copyright (c) 2016 [eFishery][8]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -65,13 +65,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[1]: http://github.com/isaacs/npm
+[1]: https://www.npmjs.com/package/fcm-push-notif
 [2]: https://firebase.google.com/docs/cloud-messaging
 [3]: mailto:ans4175@efishery.com
 [4]: mailto:nandar.rustam@gmail.com
 [5]: https://github.com/h2soft/node-gcm
 [6]: http://www.gnu.org/licenses/lgpl-3.0.txt
 [7]: https://github.com/nandarustam/fcm-push
+[8]: http://www.efishery.com
 
 ## Changelog
 
