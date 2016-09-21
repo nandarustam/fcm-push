@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/nandarustam/fcm-push#readme",
   "dependencies": {
+    "bluebird": "^3.4.1",
     "retry": "^0.9.0"
   }
 }

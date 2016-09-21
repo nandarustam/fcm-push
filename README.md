@@ -16,7 +16,7 @@ Via [npm][1]:
     var fcm = new FCM(serverKey);
 
     var message = {
-        to: 'registration_token', // required
+        to: 'registration_token_or_topics', // required fill with device token or topics
         collapse_key: 'your_collapse_key', 
         data: {
             your_custom_data_key: 'your_custom_data_value'
@@ -27,6 +27,7 @@ Via [npm][1]:
         }
     };
     
+    //callback style
     fcm.send(message, function(err, response){
         if (err) {
             console.log("Something has gone wrong!");
@@ -35,11 +36,21 @@ Via [npm][1]:
         }
     });
 
+    //promise style
+    fcm.send(message)
+        .then(function(response){
+            console.log("Successfully sent with response: ", response);
+        })
+        .catch(function(err){
+            console.log("Something has gone wrong!");
+            console.error(err);
+        })
+
 See [FCM documentation][2] for details.
 
 ## Credits
 
-Written and maintained by [Rasmunandar Rustam][3].
+Written and maintained by [Rasmunandar Rustam][3] & [Oscar Kurniawan][5]
 Thanks to Changshin Lee for his great work on [node-gcm][4], cloned and modified from there.
 
 ## License
@@ -58,8 +69,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [2]: https://firebase.google.com/docs/cloud-messaging
 [3]: mailto:nandar.rustam@gmail.com
 [4]: https://github.com/h2soft/node-gcm
+[5]: https://github.com/misugijunz
 
 ## Changelog
+
+1.1.0
+  - Add ability to send topic (by @ans-4175)
+  - Multicast, now using promise style bluebirdjs (by @misugijunz)
+  - Support callback on promise (by @misugijunz)
+  - Fixed NotRegistered bug (credit to Saber-Technologies solution)
 
 1.0.7
   
