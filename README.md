@@ -73,6 +73,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Changelog
 
+1.1.1
+ - Remove unused dependency
+
 1.1.0
   - Add ability to send topic (by @ans-4175)
   - Multicast, now using promise style bluebirdjs (by @misugijunz)
