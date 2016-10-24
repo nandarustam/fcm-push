@@ -76,10 +76,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Changelog
 
-1.1.0: 
+1.1.1
+ - Remove unused dependency
 
-  - Fixed send topic
-  - Added Promise style and callback still maintained
+1.1.0
+  - Add ability to send topic (by @ans-4175)
+  - Multicast, now using promise style bluebirdjs (by @misugijunz)
+  - Support callback on promise (by @misugijunz)
+  - Fixed NotRegistered bug (credit to Saber-Technologies solution)
+
+1.0.7
+  
+  - Fixed calling the inherits function before declaring .prototype.send function instead of after (thanks to @dnunes)
 
 1.0.6: 
 
