@@ -1,11 +1,11 @@
 {
-  "name": "fcm-push-notif",
-  "version": "1.1.2",
+  "name": "fcm-push",
+  "version": "1.1.1",
   "description": "A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android and iOS",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eFishery/fcm-push-notif.git"
+    "url": "git+https://github.com/nandarustam/fcm-push.git"
   },
   "keywords": [
     "fcm",
@@ -19,12 +19,12 @@
     "android",
     "ios"
   ],
-  "author": "Anshorimuslim <ans4175@efishery.com>",
+  "author": "Rasmunandar Rustam <nandar.rustam@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eFishery/fcm-push-notif/issues"
+    "url": "https://github.com/nandarustam/fcm-push/issues"
   },
-  "homepage": "https://github.com/eFishery/fcm-push-notif#readme",
+  "homepage": "https://github.com/nandarustam/fcm-push#readme",
   "dependencies": {
     "bluebird": "^3.4.1",
     "retry": "^0.9.0"

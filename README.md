@@ -1,4 +1,4 @@
-fcm-push-notif
+fcm-push
 ========
 A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android and iOS
 
@@ -6,13 +6,13 @@ A Node.JS simple interface to Firebase Cloud Messaging (FCM) for Android and iOS
 
 Via [npm][1]:
 
-    $ npm install fcm-push-notif
+    $ npm install fcm-push
 
 ## Usage
 
-    var FCM = require('fcm-push-notif');
+    var FCM = require('fcm-push');
 
-    var serverKey = 'your_own_server_key';
+    var serverKey = '';
     var fcm = new FCM(serverKey);
 
     var message = {
@@ -50,14 +50,14 @@ See [FCM documentation][2] for details.
 
 ## Credits
 
-Extended by [ans4175][3].
-Based on the great work on [fcm-push][7] by [Rasmunandar Rustam][4] cloned and modified from there, which in its turn, was cloned and modified from [Changshin Lee][5]'s [node-gcm][5]
+Written and maintained by [Rasmunandar Rustam][3] & [Oscar Kurniawan][5]
+Thanks to Changshin Lee for his great work on [node-gcm][4], cloned and modified from there.
 
 ## License
 
 The MIT License
 
-Copyright (c) 2016 [eFishery][8]
+Copyright (c) 2016 Rasmunandar Rustam (nandar.rustam@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -65,14 +65,11 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[1]: https://www.npmjs.com/package/fcm-push-notif
+[1]: http://github.com/isaacs/npm
 [2]: https://firebase.google.com/docs/cloud-messaging
-[3]: mailto:ans4175@efishery.com
-[4]: mailto:nandar.rustam@gmail.com
-[5]: https://github.com/h2soft/node-gcm
-[6]: http://www.gnu.org/licenses/lgpl-3.0.txt
-[7]: https://github.com/nandarustam/fcm-push
-[8]: http://www.efishery.com
+[3]: mailto:nandar.rustam@gmail.com
+[4]: https://github.com/h2soft/node-gcm
+[5]: https://github.com/misugijunz
 
 ## Changelog
 
