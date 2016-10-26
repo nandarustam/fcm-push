@@ -73,6 +73,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Changelog
 
+1.1.2
+- Edit ES6 syntax to standard (by @ans-4175)
+- Fixing #19 (by @ans-4175)
+- Remove unused variables (by @ans-4175)
+
 1.1.1
  - Remove unused dependency
 
