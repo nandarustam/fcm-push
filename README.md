@@ -74,7 +74,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Changelog
 
 1.1.2
-- Edit ES6 syntax to standard (by @ans-4175)
+- Edit ES6 syntax to standard (by @ans-4175) 
 - Fixing #19 "No error on invalid to-token" bug (by @ans-4175)
 - Remove unused variables (by @ans-4175)
 
