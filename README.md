@@ -72,6 +72,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [5]: https://github.com/misugijunz
 
 ## Changelog
+1.1.3
+- Removing unimportant console log when cb === null
+- Adding proxy support (by @sofayam) (manually picked from his fork)
 
 1.1.2
 - Edit ES6 syntax to standard (by @ans-4175) 
