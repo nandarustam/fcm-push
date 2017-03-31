@@ -50,6 +50,7 @@ See [FCM documentation][2] for details.
 
 ## Proxy Support
  
+ Documentation by @sofayam
  Supply agent as extra parameter in FCM Constructor, e.g. typical cntlm case:
  
      var HttpsProxyAgent = require('https-proxy-agent');
