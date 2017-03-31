@@ -48,6 +48,18 @@ Via [npm][1]:
 
 See [FCM documentation][2] for details.
 
+## Proxy Support
+ 
+ Supply agent as extra parameter in FCM Constructor, e.g. typical cntlm case:
+ 
+     var HttpsProxyAgent = require('https-proxy-agent');
+ 
+     var proxyurl = 'http://127.0.0.1:3128'
+     agent = new HttpsProxyAgent(proxyurl);
+ 
+     var fcm = new FCM(serverKey, agent);
+ 
+
 ## Credits
 
 Written and maintained by [Rasmunandar Rustam][3] & [Oscar Kurniawan][5]
