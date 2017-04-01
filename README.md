@@ -48,9 +48,22 @@ Via [npm][1]:
 
 See [FCM documentation][2] for details.
 
+## Proxy Support
+ 
+ Documentation by @sofayam
+ Supply agent as extra parameter in FCM Constructor, e.g. typical cntlm case:
+ 
+     var HttpsProxyAgent = require('https-proxy-agent');
+ 
+     var proxyurl = 'http://127.0.0.1:3128'
+     agent = new HttpsProxyAgent(proxyurl);
+ 
+     var fcm = new FCM(serverKey, agent);
+ 
+
 ## Credits
 
-Written and maintained by [Rasmunandar Rustam][3].
+Written and maintained by [Rasmunandar Rustam][3] & [Oscar Kurniawan][5]
 Thanks to Changshin Lee for his great work on [node-gcm][4], cloned and modified from there.
 
 ## License
@@ -69,8 +82,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [2]: https://firebase.google.com/docs/cloud-messaging
 [3]: mailto:nandar.rustam@gmail.com
 [4]: https://github.com/h2soft/node-gcm
+[5]: https://github.com/misugijunz
 
 ## Changelog
+1.1.3
+- Removing unimportant console log when cb === null
+- Adding proxy support (by @sofayam) (manually picked from his fork)
+
+1.1.2
+- Edit ES6 syntax to standard (by @ans-4175) 
+- Fixing #19 "No error on invalid to-token" bug (by @ans-4175)
+- Remove unused variables (by @ans-4175)
+
+1.1.1
+ - Remove unused dependency
+
+1.1.0
+  - Add ability to send topic (by @ans-4175)
+  - Multicast, now using promise style bluebirdjs (by @misugijunz)
+  - Support callback on promise (by @misugijunz)
+  - Fixed NotRegistered bug (credit to Saber-Technologies solution)
+
+1.0.7
+  
+  - Fixed calling the inherits function before declaring .prototype.send function instead of after (thanks to @dnunes)
 
 1.0.6: 
 
